@@ -1,0 +1,6 @@
+
+Pasmo : 
+    pasmo -d fdd3000_cpm_bios.asm fdd3000_cpm_bios.bin fdd3000_cpm_bios.sym > fdd3000_cpm_bios.lst
+
+Sjasm :
+    sjasm -s fdd3000_cpm_bios.asm fdd3000_cpm_bios.bin
